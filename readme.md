@@ -55,7 +55,8 @@ pip install cvxpy==1.6.2
    python draw_dualarm.py
    ```
 
-   运行后，会弹出 3D 模型图窗口，并在目录下生成文件 `dual_arm_robot_3d.eps`。
+   运行后，会弹出 3D 模型图窗口，并在目录下生成文件 `dual_arm_robot_3d.eps`。<img src="https://github.com/user-attachments/assets/0f34115c-4efa-4be1-96ab-1182e46ed19d" alt="dual_arm_robot_3d" width="500px" height="300px">.
+
 3. **MPC 双臂机器人仿真**
 
    文件 `mpc_dualarm_2.py` 为 MPC 控制仿真代码。在该代码中：

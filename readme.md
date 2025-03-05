@@ -68,7 +68,7 @@ pip install cvxpy==1.6.2
    运行方式：
 
    ```bash
-   python mpc_dualarm.py
+   python mpc_dualarm_2.py
    ```
 
    运行后，程序会生成如 `mpc_dualarm_xd.eps`（各关节轨迹图）`mpc_dualarm_u.eps`（输入力矩图）与 `collab_constraint.eps`（协同约束验证图）等输出文件，并在屏幕上显示图形。

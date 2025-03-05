@@ -75,7 +75,7 @@ pip install cvxpy==1.6.2
 ## 复现步骤
 
 1. 配置 Python 环境并安装好依赖包；
-2. 使用 `git clone`命令拉取所有源码文件至同一目录；
+2. 使用 `git clone https://github.com/BruceShaw0923/Dual-Arm-Robot-MPC-Simulation.git`命令拉取所有源码文件至同一目录；
 3. 通过运行 `draw_dualarm.py` 获得机器人 3D 示意图；
 4. 根据需要运行 `mpc_dualarm_2.py`观察 MPC 仿真结果；
 5. 查看输出的 EPS 文件，确保所有图形与论文中展示结果一致。
